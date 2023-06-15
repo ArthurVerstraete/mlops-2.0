@@ -38,6 +38,7 @@ def main():
     parser.add_argument('--epochs', type=int, dest='epochs', help='The amount of Epochs to train')
     args = parser.parse_args()
 
+
     print(" ".join(f"{k}={v}" for k, v in vars(args).items()))
 
     training_folder = args.training_folder
